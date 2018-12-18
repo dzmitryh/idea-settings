@@ -1,0 +1,24 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.idea;*.iml;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="version-service" type="Bash" />
+      <mapping ext="zsh" type="Bash" />
+      <mapping pattern="Jenkinsfile" type="Groovy" />
+      <mapping pattern="mt" type="PLAIN_TEXT" />
+      <mapping pattern="zshrc" type="PLAIN_TEXT" />
+      <mapping pattern=".jib" type="PLAIN_TEXT" />
+      <mapping pattern="61c8e6f8118763db4c07a6fc086efab78e9f8ba285fae7a484ef798c5dbdbc9e" type="PLAIN_TEXT" />
+      <mapping pattern="getTraxisSchema" type="PLAIN_TEXT" />
+      <mapping ext="vtt" type="PLAIN_TEXT" />
+      <mapping ext="ks" type="PLAIN_TEXT" />
+      <mapping ext="include" type="PLAIN_TEXT" />
+      <mapping ext="exec" type="PLAIN_TEXT" />
+      <mapping pattern="jenvrc" type="Properties" />
+      <mapping pattern="getLineupByChannelId" type="VTL" />
+      <mapping pattern="getChannel2episodes_3weeksResponse" type="XML" />
+      <mapping pattern="getChannel101_TVResponse" type="XML" />
+    </extensionMap>
+  </component>
+</application>

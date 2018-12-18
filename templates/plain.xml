@@ -1,0 +1,20 @@
+<templateSet group="plain">
+  <template name="prf" value="private final" description="private final" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="prsf" value="private static final" description="private static final" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="patn" value="public abstract $TYPE$ $NAME$" description="field for auto value generator" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="variableOfType(Type)" defaultValue="String" alwaysStopAt="true" />
+    <variable name="NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+</templateSet>

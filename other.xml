@@ -1,0 +1,77 @@
+<application>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+  </component>
+  <component name="ImportConfiguration">
+    <option name="VENDOR" />
+    <option name="RELEASE_TAG" />
+    <option name="LOG_MESSAGE" />
+    <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+    <option name="KEYWORD_SUBSTITUTION_WRAPPERS" value="" />
+    <option name="MAKE_NEW_FILES_READ_ONLY" value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/Cellar/node/8.7.0/bin/node">
+      <version-cache version="8.7.0" last-modified="1508844404000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="8.7.0" last-modified="1508844404000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/6.7.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="http://repo1.maven.org/maven2/com/nimbusds/oauth2-oidc-sdk/5.18.1/" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_3" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_BAU_Timebox_17" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_3_merge_v2" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/trunk/" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_4/" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="http://repo1.maven.org/maven2/com/nimbusds/oauth2-oidc-sdk/5.18.1/" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_3" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_BAU_Timebox_17" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_3_merge_v2" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/trunk/" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_4/" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_1" />
+        <option value="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_1/" />
+      </list>
+    </option>
+    <option name="mySvnCommandLine" value="/usr/local/Cellar/subversion/1.9.4/bin/svn" />
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="https://svn.intdigital.ee.co.uk/svn/myee/branches/MyAccount_Tactical_Timebox_4/flowmakeanonymouspayment">
+          <value>
+            <set>
+              <option value="$USER_HOME$/projects/EE/MyAccount_Tactical_Timebox_4/flowmakeanonymouspayment" />
+            </set>
+          </value>
+        </entry>
+        <entry key="https://svn.intdigital.ee.co.uk/svn/myee/trunk">
+          <value>
+            <set>
+              <option value="$USER_HOME$/projects/EE/trunk" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WebServicesPluginSettings">
+    <StubPackage>com.lgi.thumbnail.api.client.vrm.model2</StubPackage>
+    <StubPackage>com.lgi.thumbnail.api.client.vrm.model</StubPackage>
+    <StubPackage>com.lgi.epg.packager.generated.response</StubPackage>
+    <JAXBUrl>file:$USER_HOME$/projects/LIBG/SPARK/thumbnail-service/vrm-client/src/main/resources/contentResolutionApi.xsd</JAXBUrl>
+    <JAXBUrl>file:$USER_HOME$/projects/LIBG/SPARK/thumbnail-service/thumbnail-service/src/main/resources/contentResolutionApi.xsd</JAXBUrl>
+    <JAXBUrl>file:$USER_HOME$/projects/LIBG/Documents/traxis/traxis.xsd</JAXBUrl>
+  </component>
+</application>
