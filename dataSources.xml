@@ -1,0 +1,47 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="postgres@localhost" uuid="11e6244d-11de-45f1-8f11-54415274aeb7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="development-pr-db" uuid="33ccde30-f545-49ac-b808-445d08c059f8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pg-microservices.c3cfyeikzfqt.eu-central-1.rds.amazonaws.com:5432/push_notifications_service_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="actor-service-local-db" uuid="58eb1592-ea2b-481f-840a-79300fde5831">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://100.104.151.54:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="replay-catalog-imdb-at-localhost" uuid="e5c0ad90-e50f-482f-bdce-49d36a7a1081">
+      <driver-ref>derby.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby://localhost:1527/memory:rcs_imdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="schedule-api-prod-db" uuid="8d7c0f26-6e36-427f-97d8-6e32d041d50b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>Schedule API PROD AWS DB access</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pg-kraken-schedule-salt-master.lgi.io:5432/production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="actor-service-prod-db" uuid="7b589341-33aa-4824-9fdc-9a12c2dc1025">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pg-microservices.cmjlpbb1vsye.eu-central-1.rds.amazonaws.com/pe_actor_service</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="actor-service-dev-db" uuid="d47ddd4c-fe8e-4783-89b5-8b6eaf57e6b3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pg-microservices.c3cfyeikzfqt.eu-central-1.rds.amazonaws.com/development_actor_service</jdbc-url>
+    </data-source>
+  </component>
+</application>

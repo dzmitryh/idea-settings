@@ -1,0 +1,15 @@
+<templateSet group="Custom">
+  <template name="auto" value="public static $CLASS_NAME$ create($VAR_TYPE$ $VAR_NAME$) {&#10;    return new AutoValue_$CLASS_NAME$(checkNotNull($VAR_NAME$, &quot;$VAR_NAME$&quot;));&#10;}&#10;&#10;public abstract $VAR_TYPE$ $VAR_NAME$();" description="Generate @AutoValue class prototype" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_TYPE" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="camelCase(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+</templateSet>
