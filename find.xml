@@ -1,9 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -17,7 +19,7 @@
     <mask>Dockerfile</mask>
     <mask>Jenkinsfile</mask>
     <mask>active.yaml</mask>
-    <mask>*.*</mask>
     <mask>pom.xml</mask>
+    <mask>*.*</mask>
   </component>
 </application>
