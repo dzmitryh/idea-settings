@@ -1,17 +1,4 @@
-<templateSet group="Custom">
-  <template name="$auto" value="public static $CLASS_NAME$ create($VAR_TYPE$ $VAR_NAME$) {&#10;    return new AutoValue_$CLASS_NAME$(com.google.common.base.Preconditions.checkNotNull($VAR_NAME$, &quot;$VAR_NAME$&quot;));&#10;}&#10;&#10;public abstract $VAR_TYPE$ $VAR_NAME$();" description="Generate @AutoValue class prototype" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR_TYPE" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR_NAME" expression="camelCase(String)" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="COMPLETION" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-    </context>
-  </template>
+<templateSet group="Allegro">
   <template name="$jget" value="@javax.ws.rs.GET&#10;@javax.ws.rs.Path(&quot;$PATH$&quot;)&#10;public $RETURN$ $NAME$($PARAMS$) {&#10;    return $VALUE$;$END$&#10;}" description="JAX-RS &quot;get&quot; method" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="PATH" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
     <variable name="RETURN" expression="complete()" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
@@ -88,7 +75,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="$log" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($CLASS$.class);" description="New SLF4J logger" toReformat="true" toShortenFQNames="true">
+  <template name="$log" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($CLASS$.class);" description="New SLF4J logger" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
@@ -358,13 +345,6 @@
     <variable name="NAME" expression="suggestVariableName()" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="$tc" value="//given&#10;//when&#10;//then" description="test comments" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
