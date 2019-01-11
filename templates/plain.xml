@@ -5,7 +5,10 @@
     </context>
   </template>
   <template name="prsf" value="private static final" description="private static final" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
   </template>
   <template name="patn" value="public abstract $TYPE$ $NAME$" description="field for auto value generator" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="variableOfType(Type)" defaultValue="String" alwaysStopAt="true" />
