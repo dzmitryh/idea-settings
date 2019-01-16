@@ -5,7 +5,9 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="version-service" type="Bash" />
       <mapping ext="zsh" type="Bash" />
+      <mapping pattern="deploy-service-pipeline" type="Groovy" />
       <mapping pattern="Jenkinsfile" type="Groovy" />
+      <mapping pattern="delete-service-pipeline" type="Groovy" />
       <mapping pattern="mt" type="PLAIN_TEXT" />
       <mapping pattern="zshrc" type="PLAIN_TEXT" />
       <mapping pattern=".jib" type="PLAIN_TEXT" />
