@@ -58,9 +58,13 @@
           <option name="url" value="https://github.com/dropwizard/metrics.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git@bitbucket.upc.biz:7999/spark/tengen-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/Pet-Projects" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/LIBG/SPARK" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/projects/LIBG/patches" />
