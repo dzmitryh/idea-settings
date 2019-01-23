@@ -6,11 +6,11 @@
   </component>
   <component name="BitbucketServerRegistry">
     <instances>
-      <instance baseUri="https://bitbucket.upc.biz:443/" />
+      <instance uuid="2fd65597-83da-3c0d-b1a0-4230ed08da2e" baseUri="https://bitbucket.upc.biz:443/" />
     </instances>
     <lookup>
       <record scheme="ssh" hostname="bitbucket.upc.biz" port="7999" path="/" uuid="2fd65597-83da-3c0d-b1a0-4230ed08da2e" />
     </lookup>
   </component>
-  <component name="Instance" id="d1c90093-966e-4d5f-9978-c009ce4ed0e7" version="6.1" />
+  <component name="Instance" id="d1c90093-966e-4d5f-9978-c009ce4ed0e7" version="6.3" />
 </application>
