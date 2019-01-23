@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="git-coml">
+      <action id="Git.Branches" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <action id="Git.Pull" />
+    </macro>
+  </component>
+</application>
