@@ -13,4 +13,12 @@
     </lookup>
   </component>
   <component name="Instance" id="d1c90093-966e-4d5f-9978-c009ce4ed0e7" version="6.3" />
+  <component name="UsageLog">
+    <event name="OpenFile" place="EditorPopup" timestamp="2019-02-20T16:03:34.245Z">
+      <attribute name="editor">true</attribute>
+      <attribute name="multipleLines">false</attribute>
+      <attribute name="multipleCarets">false</attribute>
+      <attribute name="bitbucket">server</attribute>
+    </event>
+  </component>
 </application>
