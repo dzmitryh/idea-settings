@@ -13,4 +13,9 @@
     </lookup>
   </component>
   <component name="Instance" id="d1c90093-966e-4d5f-9978-c009ce4ed0e7" version="6.3" />
+  <component name="UsageLog">
+    <event name="CopyLinkToCommit" place="" timestamp="2019-02-27T10:38:38.505Z">
+      <attribute name="bitbucket">server</attribute>
+    </event>
+  </component>
 </application>
