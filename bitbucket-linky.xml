@@ -13,15 +13,4 @@
     </lookup>
   </component>
   <component name="Instance" id="d1c90093-966e-4d5f-9978-c009ce4ed0e7" version="6.3" />
-  <component name="UsageLog">
-    <event name="CreatePullRequest" place="EditorPopup" timestamp="2019-03-20T12:49:52.591Z">
-      <attribute name="bitbucket">server</attribute>
-    </event>
-    <event name="CopyLinkToFile" place="EditorPopup" timestamp="2019-03-20T12:52:21.311Z">
-      <attribute name="editor">true</attribute>
-      <attribute name="multipleLines">false</attribute>
-      <attribute name="multipleCarets">false</attribute>
-      <attribute name="bitbucket">server</attribute>
-    </event>
-  </component>
 </application>
