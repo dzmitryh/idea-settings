@@ -2,12 +2,12 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.idea;*.iml;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="version-service" type="Bash" />
       <mapping ext="zsh" type="Bash" />
       <mapping pattern="deploy-service-pipeline" type="Groovy" />
       <mapping pattern="Jenkinsfile" type="Groovy" />
       <mapping pattern="delete-service-pipeline" type="Groovy" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="mt" type="PLAIN_TEXT" />
       <mapping pattern="zshrc" type="PLAIN_TEXT" />
       <mapping pattern=".jib" type="PLAIN_TEXT" />
